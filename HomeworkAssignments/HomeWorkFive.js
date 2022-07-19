@@ -63,10 +63,6 @@ for (let counter = 0;  counter <= mySentenceSplit.length - 1 ; counter ++) {
 
 
 
-
-
-
-
 /**
  * Q2:
  * Reverse a String (word by word)

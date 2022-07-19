@@ -19,7 +19,12 @@
  * 
  * Grade -> C
  */
-let studentScore = 40;
+
+
+
+//My Answer
+
+/**let studentScore = 80;
 
 let maxScore = 50;
 
@@ -51,12 +56,38 @@ let maxScore = 50;
   
     case studentScore <=  maxScore:
         console.log('Invalid student score');
-        break;
+       break;
   
     default:
       console.log('Invalid student score');
+*/
 
- }
+
+/** The correct anwser. My answer was wrong because I used a Switch condition to 
+the problem, this is incorrect because the switch case does not accept contitions
+The correct logic is to use the if Else condition and the correct vaeriable
+of stuswnrt percentage. 
+*/
+let studentScore = 40
+let maxScore = 100
+let studentPercent = (studentScore/maxScore) * 100
+if  (studentPercent < 0 || studentPercent > 100 ) {
+    console.log('Invaild Data')
+} else if (studentPercent >=91) {
+    console.log('Grade-A')
+} else if (studentPercent >= 81) {
+    console.log('Grade-B')
+} else if (studentPercent >= 71) {
+    console.log('Grade-C')
+} else if (studentPercent >= 61) {
+    console.log('Grade-D')
+} else if (studentPercent >= 51) {
+    console.log('Grade-E')
+} else if (studentPercent < 51) {
+    console.log('Grade-F')
+} else {
+    console.log('Error')
+}
 
 
 /**
@@ -73,14 +104,14 @@ let maxScore = 50;
  * 
  */
 
-let myNumber = 19;
+let myNumber = 15;
 
-if (myNumber % 5 === 0 ) {
-    console.log("divisible by 5");
+if (myNumber % 5 === 0 && myNumber % 3 === 0) {
+    console.log("divisible by 15");
     } else if (myNumber % 3 === 0) {
     console.log("divisible by 3");
-    } else if (myNumber % 5 === 0 && myNumber % 3 === 0) {
-    console.log("divisible by 5 and 3");
+    } else if (myNumber % 3 === 0) {
+    console.log("divisible by 3");
     } else {
     console.log(myNumber);
     }
@@ -102,7 +133,7 @@ if (planets.indexOf('Earth') !== -1
 ){
   console.log("Earth is mentioned in expected index");
 }else
-      planets.splice(0, 0, "Earth");
+      planets.splice(0, 1, "Earth");
       console.log(planets);
 
 

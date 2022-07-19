@@ -51,7 +51,7 @@ console.log(sentenceThreeStrWithHeaIgno);
 //3. does sentence-3 contains with 'Body' (ignore cases)
 console.log(`\n3. Does sentence-3 contains with 'Body'? (ignore cases)`);
 let sentence3ContainBody = sentence3.includes('Body');
-console.log(sentence3ContainBody);
+console.log(sentence3ContainBody)
 
 //4. index of 'Body' in sentence3  (ignore cases)
 console.log(`\n4. What is the index of 'Body' in sentence3?  (ignore cases)`);
