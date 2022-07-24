@@ -40,7 +40,6 @@ console.log(sentToTitleCase(secondSentence));
 
 
 
-
 /**
  * Q2:
  * Create a function to reverse a String (word by word)
@@ -51,7 +50,8 @@ console.log(sentToTitleCase(secondSentence));
  * 'Learn' -> 'Learn'
  * 
  */
- console.log('\n Answer to question 2: \n');
+ 
+console.log('\n Answer to question 2: \n');
 let employeeDetails = 'Director of Sales and Marketing';
 
 function sentenceReverse(stringName){ 
@@ -119,5 +119,6 @@ function findArrayAvg(inputArr){
     })
     return total/inputArr.length;
 }
+
 // Call the function
 console.log(findArrayAvg(nums));
