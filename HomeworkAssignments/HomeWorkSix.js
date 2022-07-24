@@ -1,5 +1,4 @@
 // Due date: Thu (July 21) eod
-
 /**
  * Q1:
  * Create a function to convert any sentence into Titlecase
@@ -14,7 +13,6 @@
 const  secondSentence =  'tHis iS My senTencE';
       
 function sentToTitleCase(mySentence){
-
  console.log('\n Answer to question 1: \n');
  //creat an emput variable to hold tha acroymn 
  let acron = '';
@@ -42,6 +40,7 @@ console.log(sentToTitleCase(secondSentence));
 
 
 
+
 /**
  * Q2:
  * Create a function to reverse a String (word by word)
@@ -52,7 +51,7 @@ console.log(sentToTitleCase(secondSentence));
  * 'Learn' -> 'Learn'
  * 
  */
- console.log('\n Answer to question 2\n');
+ console.log('\n Answer to question 2: \n');
 let employeeDetails = 'Director of Sales and Marketing';
 
 function sentenceReverse(stringName){ 
@@ -73,7 +72,6 @@ return reverseSentence;
 // Call the function
 console.log(sentenceReverse(employeeDetails));
 
-
 /**
  * Q3:
  * Create a function to find the total of numbers in the array
@@ -84,7 +82,7 @@ console.log(sentenceReverse(employeeDetails));
  */
 
 
-console.log('\n Answer to question 3\n');
+console.log('\n Answer to question 3: \n');
  let myArray =  [1, 1, 1, 2, 3, 1, 2];
 
  //arrayTotal(myArray);
@@ -98,8 +96,8 @@ function arrayTotal(inputArray) {
     return total;
 }
 
-
 console.log(arrayTotal(myArray));
+
 
 
 
@@ -109,7 +107,7 @@ console.log(arrayTotal(myArray));
 * avg = totalOfValues/numberOfValues
 */
 
-console.log('\n Answer to question 4\n');
+console.log('\n Answer to question 4: \n');
 
 let nums = [1, 1, 1, 2, 3, 1, 2];
 
@@ -120,6 +118,5 @@ function findArrayAvg(inputArr){
     })
     return total/inputArr.length;
 }
-
+// Call the function
 console.log(findArrayAvg(nums));
-
